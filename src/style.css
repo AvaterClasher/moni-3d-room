@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+.experience {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+}
+
+.credits {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #ffffff;
+  font-family: "Nanum Myeongjo", serif;
+  display: flex;
+  gap: 15px;
+}
+
+.credits a {
+  color: inherit;
+}
+
+.credits a:hover {
+  color: #f00000;
+}
+
+
+
+.credits p {
+  text-align: left;
+}
